@@ -37,6 +37,13 @@ a { color: inherit; }
 
 /* ---------- Hero ---------- */
 .hero { padding: 4.5rem 0 3rem; }
+.brand-mark {
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
 .hero .display { font-size: clamp(3rem, 9vw, 5.5rem); }
 .hero .lede {
   max-width: 34rem;
