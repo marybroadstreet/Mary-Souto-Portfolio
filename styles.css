@@ -216,11 +216,10 @@ a { color: inherit; }
 .contact .display { font-size: clamp(2.5rem, 7vw, 4rem); }
 .contact-details {
   margin-top: 1.75rem;
-  font-size: 1.05rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
-.contact-details p { margin: 0.4rem 0; }
-.contact-details a { text-decoration: none; }
-.contact-details a:hover { text-decoration: underline; }
 
 /* ---------- Motion preferences (as supplied) ---------- */
 @media (prefers-reduced-motion: reduce) {
